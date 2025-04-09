@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+button {
+  @apply btn;
+  @apply bg-blue-800 text-white;
+}
